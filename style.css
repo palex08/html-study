@@ -1,0 +1,57 @@
+/* Основные стили */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f8ff;
+    color: #333;
+}
+
+/* Заголовок */
+header {
+    background-color: #4682b4;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+}
+
+/* Основной контент */
+main {
+    padding: 20px;
+}
+
+.intro, .ship {
+    margin-bottom: 20px;
+}
+
+h2, h3 {
+    color: #4682b4;
+}
+
+p {
+    line-height: 1.6;
+}
+
+/* Изображение корабля */
+.ship img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    border: 5px solid #4682b4;
+}
+
+/* Подвал */
+footer {
+    background-color: #4682b4;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
